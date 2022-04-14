@@ -49,4 +49,3 @@ local oldIndex = nil oldIndex = hookmetamethod(game, "__index", function(self, I
 	
 end
 return oldIndex(self, Index)
-end)
